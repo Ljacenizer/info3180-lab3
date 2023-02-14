@@ -1,3 +1,60 @@
 body {
     padding-top: 5rem;
 }
+.formcontainer label[for="required"]{
+    color: red;
+    font-weight: bold;
+}
+
+.formcontainer #name {
+    width: 35%;
+    border: 1px solid #4e4e4e78;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.formcontainer #email {
+    width: 35%;
+    border: 1px solid #4e4e4e78;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.formcontainer #subject {
+    width: 35%;
+    border: 1px solid #4e4e4e78;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.formcontainer #message {
+    width: 45%;
+    height: 122px;
+    border: 1px solid #4e4e4e78;
+    text-align: left;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.formcontainer #submit{
+    background-color: #2987CD;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.container .flashes{
+    list-style: none;
+}
+
+.container .flashes li{
+    font-size: 28px;
+    color:rgb(44, 28, 163);
+}
